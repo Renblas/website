@@ -1,0 +1,75 @@
+/*
+	Background: 		#000
+	Background Red: 	#3D0000
+	Lighter Red: 		#950101
+	Light Red: 			#FF0000
+*/
+
+
+/* Global Stuff */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #000000;
+	color: #fff;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+div.content {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+
+/* Header Stuff */
+ul.header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3D0000;
+}
+
+li.header {
+	float: left;
+	border-right: 2px solid #950101;
+}
+
+li.header:last-child {
+	border-right: 0px;
+	border-left: 2px solid #950101;
+}
+
+#header-games {
+	float: right;
+}
+
+li a.header {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a.header:hover {
+	background-color: #ff0000;
+}
