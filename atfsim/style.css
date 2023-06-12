@@ -21,3 +21,55 @@ div.ui {
 	justify-content: left;
 	position: absolute;
 }
+
+div.menu-main {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+}
+
+#settings-button {
+	margin: 4px;
+	position: inherit;
+	top: 0px;
+	left: 948px;
+	background-color: rgba(40, 40, 40, 0.4);
+	border-radius: 16px;
+	border-color: rgb(40, 40, 40);
+}
+
+#title {
+	position: inherit;
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	top: 16px;
+	width: 1024px;
+
+	color: black;
+	font-size: 32px;
+}
+
+#start-button {
+
+	position: inherit;
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	top: 456px;
+	width: 1024px;
+}
+
+#start-button button {
+	background-color: rgba(40, 40, 40, 0.4);
+	border-radius: 16px;
+	border-color: rgb(40, 40, 40);
+
+	font-size: 16px;
+
+	padding: 16px;
+}
