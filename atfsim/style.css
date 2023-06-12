@@ -1,0 +1,23 @@
+div.game-div {
+
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	padding: 0 auto;
+}
+
+canvas.p5Canvas {
+	z-index: 0;
+}
+
+div.ui {
+	z-index: 1;
+
+	width: 1024px;
+	height: 576px;
+
+
+	display: block;
+	justify-content: left;
+	position: absolute;
+}
