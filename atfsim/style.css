@@ -1,3 +1,4 @@
+/* ---------------------------------- Divs ---------------------------------- */
 div.game-div {
 
 	padding-top: 20px;
@@ -16,34 +17,33 @@ div.ui {
 	width: 1024px;
 	height: 576px;
 
-
-	display: block;
-	justify-content: left;
 	position: absolute;
 }
 
-div.menu-main {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-}
-
+/* -------------------------------- Main Menu ------------------------------- */
 #settings-button {
-	margin: 4px;
-	position: inherit;
+	position: absolute;
+
+	display: inline-block;
+	cursor: pointer;
+
 	top: 0px;
 	left: 948px;
-	background-color: rgba(40, 40, 40, 0.4);
+
+	margin: 4px;
+
+	background: rgba(40, 40, 40, 0.4);
+
 	border-radius: 16px;
 	border-color: rgb(40, 40, 40);
 }
 
 #title {
-	position: inherit;
+	position: absolute;
+	pointer-events: none;
 
 	display: flex;
 	justify-content: center;
-	align-content: center;
 
 	top: 16px;
 	width: 1024px;
@@ -54,14 +54,15 @@ div.menu-main {
 
 #start-button {
 
-	position: inherit;
+	position: absolute;
 
 	display: flex;
 	justify-content: center;
-	align-content: center;
 
 	top: 456px;
 	width: 1024px;
+
+	cursor: pointer;
 }
 
 #start-button button {
@@ -72,4 +73,22 @@ div.menu-main {
 	font-size: 16px;
 
 	padding: 16px;
+}
+
+/* ------------------------------ Settings Menu ----------------------------- */
+
+#menu-settings {
+	position: absolute;
+	display: block;
+	top: 32px;
+	left: 256px;
+
+	width: 512px;
+	height: 512px;
+
+	background: rgb(54, 54, 54);
+
+	border-color: rgb(147, 113, 0);
+	border-radius: 16px;
+	border-width: 16px;
 }
