@@ -11,6 +11,8 @@
 document.getElementById("start-button").children[0].addEventListener("click", function () {
 	print("START-BUTTON was clicked!");
 	document.getElementById("menu-main").setAttribute("style", "visibility: hidden");
+
+	startGame();
 });
 
 // settings button
