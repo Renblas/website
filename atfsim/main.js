@@ -62,6 +62,14 @@ function drawGame() {
 // Start New Game
 function startGame() {
 
+	/* ------------------------------- Load Assets ------------------------------ */
+
+	loadImages();
+
+	initSprites();
+
+	/* ------------------------------- Start Game ------------------------------- */
+	
 	world = new World({
 		size: [32, 18],
 	})
