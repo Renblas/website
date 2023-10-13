@@ -14,7 +14,7 @@ class HTML_Header extends HTMLElement {
                		<li class="header"><a class="header" href="contact.html">Contact</a></li>
                		<li class="header"><a class="header" href="portfolio.html">Portfolio</a></li>
                		<li class="header"><a class="header" href="files">Files</a></li>
-               		<li class="header" style="float:right"><a class="header" href="games.html">Games</a></li>
+               		<li class="header" style="float:right"><a class="header" href="projects.html">Projects</a></li>
             	</ul>
 			</nav>
         </header>

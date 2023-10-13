@@ -11,7 +11,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 html,
@@ -29,10 +29,12 @@ body {
 }
 
 div.content {
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	background-color: #1F0000;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin: 40px 5%;
 }
 
 main {
