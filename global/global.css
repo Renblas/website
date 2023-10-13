@@ -22,7 +22,8 @@ body {
 body {
 	background-color: #000000;
 	color: #fff;
-	font-family: sans-serif;
+	font-family: monospace;
+	font-size: x-large;
 	display: flex;
 	flex-direction: column;
 }
