@@ -10,7 +10,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	overflow-x: hidden;
 }
 
@@ -39,6 +38,11 @@ div.content {
 
 main {
 	flex: 1 0 auto;
+}
+
+global-header {
+	height: 100px;
+	display: block;
 }
 
 
