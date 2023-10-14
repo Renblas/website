@@ -5,3 +5,7 @@ git pull
 
 cd IntoTheDataStream
 git pull
+
+cd ..
+cd auton_30204D
+git pull

@@ -1,12 +1,18 @@
-/*
+/* ========================================================================== */
+/*                                   Colors                                   */
+/* ========================================================================== 
+
 	Background: 		#000
 	Background Red: 	#3D0000
 	Lighter Red: 		#950101
 	Light Red: 			#FF0000
+
 */
 
 
-/* Global Stuff */
+/* ========================================================================== */
+/*                                Global Stuff                                */
+/* ========================================================================== */
 * {
 	margin: 0;
 	padding: 0;
@@ -40,13 +46,32 @@ main {
 	flex: 1 0 auto;
 }
 
+a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: solid;
+	border: #ff0000;
+	border-radius: 4px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px;
+}
+
+a:hover {
+	background-color: #ff0000;
+}
+
+
+/* ========================================================================== */
+/*                                Header Stuff                                */
+/* ========================================================================== */
+
 global-header {
 	height: 100px;
 	display: block;
 }
 
 
-/* Header Stuff */
 ul.header {
 	list-style-type: none;
 	margin: 0;
@@ -70,11 +95,16 @@ li.header:last-child {
 }
 
 li a.header {
+	border-radius: 0px;
+	font-weight: normal;
+	padding: 0px;
 	display: block;
 	color: white;
+	background-color: #3D0000;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	border: none;
 }
 
 li a.header:hover {
